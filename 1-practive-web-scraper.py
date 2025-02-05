@@ -39,4 +39,4 @@ df = pd.DataFrame(data, columns=['Title', 'Price'])
 print(df)
 
 # Save the DataFrame to a CSV file
-df.to_csv('outdata/scraped_data.csv', index=False)
+df.to_csv('outdata/1-practice-web-scraper.csv', index=False)
