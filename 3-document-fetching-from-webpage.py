@@ -21,9 +21,9 @@ print('Document link found:', document_link)
 
 
 # Handle relative URLs
-# base_url = 'https://example.com'  # The base URL of the website
-# full_url = os.path.join(base_url, document_link)
-# print('Full URL:', full_url)
+base_url = 'https://example.com'  # The base URL of the website
+full_url = os.path.join(base_url, document_link)
+print('Full URL:', full_url)
 
 # Step 3: Download the document
 document_response = requests.get(full_url)
